@@ -6,7 +6,7 @@ var app = express();
 app.use(express.static(process.env.NODE_ENV === 'development' ? './' : './'));
 
 app.get('*', function (req, res, next) {
-  res.sendfnile('./index.html')
+  res.sendfile('./index.html')
 })
 
 var server = require('http').createServer(app);
