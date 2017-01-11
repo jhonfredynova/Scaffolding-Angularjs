@@ -4,6 +4,7 @@
   "description": "test",
   "main": "server.js",
   "scripts": {
+    "postinstall": "bower install",
     "test": "node server"
   },
   "repository": {
