@@ -16,7 +16,6 @@
     "angular-route": "^1.6.1",
     "angular-resource": "^1.6.1",
     "angular-bootstrap": "^2.4.0",
-    "lodash": "^4.17.4",
     "normalize-css": "^5.0.0",
     "bootstrap": "^3.3.7"
   }
