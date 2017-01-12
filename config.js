@@ -1,8 +1,7 @@
 'use strict';
 
-angular.module('test.main', [  'ngResource',
-                               'ngRoute',
-                               'ui.bootstrap']);
+angular.module('test.main', [ 'ngRoute',
+                              'ui.bootstrap']);
 
 angular.module('test.main')
 	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
