@@ -7,11 +7,11 @@
     <meta name="description" content="Administración de tareas">
     <meta name="author" content="Jhon Nova">
     <title>Test</title>
-    <!-- build:css assets/includes/application.css -->
-        <link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
-        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/animations.css" rel="stylesheet">
-        <link href="assets/style.css" rel="stylesheet">
+    <!-- build:css assets/application.css -->
+        <link href="node_modules/normalize-css/normalize.css" rel="stylesheet">
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="node_modules/animate.css/animate.min.css" rel="stylesheet">
+        <link href="src/index.css" rel="stylesheet">
     <!-- endbuild -->
     </head>
     <body>
@@ -37,19 +37,17 @@
             </footer>
         </div>
         
-        <!-- build:js assets/includes/application.js -->
-            <!--bower_components-->
-            <script src="bower_components/angular/angular.min.js"></script>
-            <script src="bower_components/angular-route/angular-route.min.js"></script>
-            <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-            <script src='bower_components/lodash/dist/lodash.min.js'></script>
-            <!--common-->
-            <script src="config.js"></script>
-            <script src="controllers/ctlHome.js"></script>
-            <script src="controllers/ctlAlbum.js"></script>
-            <script src="directives/dtvUserInfo.js"></script>
-            <script src="directives/dtvAlbumInfo.js"></script>
-            <script src="directives/dtvPhotoInfo.js"></script>
+        <!-- build:js assets/application.js -->
+            <script src="node_modules/angular/angular.min.js"></script>
+            <script src="node_modules/angular-route/angular-route.min.js"></script>
+            <script src="node_modules/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+            <script src='node_modules/lodash/lodash.js'></script>
+            <script src="src/index.js"></script>
+            <script src="src/controllers/ctlHome.js"></script>
+            <script src="src/controllers/ctlAlbum.js"></script>
+            <script src="src/directives/dtvUserInfo.js"></script>
+            <script src="src/directives/dtvAlbumInfo.js"></script>
+            <script src="src/directives/dtvPhotoInfo.js"></script>
         <!-- endbuild -->
     </body>
 </html>

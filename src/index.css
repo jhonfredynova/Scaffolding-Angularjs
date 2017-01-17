@@ -1,0 +1,13 @@
+.box-album {
+  font: 100% Helvetica, sans-serif;
+  display: inline-flex;
+  width: 200px;
+  margin: 10px; }
+
+.box-title {
+  font: 100% Helvetica, sans-serif;
+  height: 60px;
+  font-size: 18px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 3px; }

@@ -1,10 +1,14 @@
+$font-stack:    Helvetica, sans-serif;
+
 .box-album{
+    font: 100% $font-stack;
     display: inline-flex;
     width: 200px;
     margin: 10px;
 }
 
 .box-title{
+    font: 100% $font-stack;
     height: 60px;
     font-size: 18px;
     text-align: center;

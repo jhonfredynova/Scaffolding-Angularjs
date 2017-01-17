@@ -8,14 +8,14 @@ angular.module('test.main')
         $routeProvider
             .when('/', {
                 controller: 'ctlHome',
-                templateUrl: 'templates/home.html'
+                templateUrl: 'src/templates/home.html'
             })
             .when('/album/:idAlbum', {
                 controller: 'ctlAlbum',
-                templateUrl: 'templates/album.html'
+                templateUrl: 'src/templates/album.html'
             })
             .otherwise({
-                templateUrl: 'templates/404.html'
+                templateUrl: 'src/templates/404.html'
             });
             
           $locationProvider.html5Mode(true);
